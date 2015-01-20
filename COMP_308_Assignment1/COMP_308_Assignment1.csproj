@@ -65,6 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\icon\contact.svg" />
+    <Content Include="assets\img\icon\github.svg" />
+    <Content Include="assets\img\icon\home.svg" />
+    <Content Include="assets\img\icon\me.svg" />
+    <Content Include="assets\img\icon\project.svg" />
+    <Content Include="assets\img\icon\service.svg" />
     <Content Include="css\app.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\normalize.css" />
@@ -80,9 +86,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
