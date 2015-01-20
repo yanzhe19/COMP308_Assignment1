@@ -65,10 +65,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\app.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="humans.txt" />
+    <Content Include="index.html" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\lib\app.js" />
+    <Content Include="Scripts\lib\foundation.min.js" />
+    <Content Include="Scripts\lib\jquery.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
