@@ -1,2 +1,51 @@
 ﻿body {
 }
+
+#navBar, #navBarRegular {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 10px 0 16px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #b0b0b0;
+}
+
+#callToAction {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 100px;
+    border-color: transparent transparent transparent #007bff;
+}
+
+#buttonboxback {
+    width: 150px;
+    height: 40px;
+    background-color: #007bff;
+    position: relative;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+#buttonboxback:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent  transparent transparent #007bff;    
+}
+
+#buttonboxback > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font: bold 18px/40px Sans-Serif;
+}
+

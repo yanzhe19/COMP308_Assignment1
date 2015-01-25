@@ -57,6 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\icon\webicon-facebook-m.png" />
+    <Content Include="assets\img\icon\webicon-facebook.svg" />
+    <Content Include="assets\img\icon\webicon-linkedin-m.png" />
+    <Content Include="assets\img\icon\webicon-linkedin.svg" />
+    <Content Include="assets\img\icon\webicon-twitter-m.png" />
+    <Content Include="assets\img\icon\webicon-twitter.svg" />
+    <Content Include="assets\img\icon\webicon-youtube-m.png" />
+    <Content Include="assets\img\icon\webicon-youtube.svg" />
+    <Content Include="css\webicons.css" />
+    <Content Include="engine1\controls.eot" />
+    <Content Include="engine1\controls.ttf" />
+    <Content Include="engine1\controls.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,8 +86,28 @@
     <Content Include="css\app.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="data1\images\1.jpg" />
+    <Content Include="data1\images\2.jpg" />
+    <Content Include="data1\images\3.png" />
+    <Content Include="data1\images\4.png" />
+    <Content Include="data1\images\5.jpg" />
+    <Content Include="data1\images\6.jpg" />
+    <Content Include="data1\tooltips\1.jpg" />
+    <Content Include="data1\tooltips\2.jpg" />
+    <Content Include="data1\tooltips\3.png" />
+    <Content Include="data1\tooltips\4.png" />
+    <Content Include="data1\tooltips\5.jpg" />
+    <Content Include="data1\tooltips\6.jpg" />
+    <Content Include="engine1\controls.svg" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
     <Content Include="humans.txt" />
     <Content Include="index.html" />
+    <Content Include="projects.html" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\lib\app.js" />
     <Content Include="Scripts\lib\foundation.min.js" />
