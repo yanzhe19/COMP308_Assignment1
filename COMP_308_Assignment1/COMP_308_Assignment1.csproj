@@ -59,8 +59,11 @@
   <ItemGroup>
     <Content Include="aboutMe.html" />
     <Content Include="assets\img\icon\webicon-facebook-m.png" />
+    <Content Include="assets\img\icon\webicon-facebook.png" />
     <Content Include="assets\img\icon\webicon-linkedin-m.png" />
+    <Content Include="assets\img\icon\webicon-linkedin.png" />
     <Content Include="assets\img\icon\webicon-twitter-m.png" />
+    <Content Include="assets\img\icon\webicon-twitter.png" />
     <Content Include="assets\img\icon\webicon-youtube-m.png" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,22 +79,23 @@
     <Content Include="assets\img\icon\me.svg" />
     <Content Include="assets\img\icon\project.svg" />
     <Content Include="assets\img\icon\service.svg" />
+    <Content Include="assets\img\icon\webicon-youtube.png" />
     <Content Include="contactMe.html" />
     <Content Include="css\app.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\normalize.css" />
-    <Content Include="data1\images\1.jpg" />
-    <Content Include="data1\images\2.jpg" />
-    <Content Include="data1\images\3.png" />
-    <Content Include="data1\images\4.png" />
-    <Content Include="data1\images\5.jpg" />
-    <Content Include="data1\images\6.jpg" />
-    <Content Include="data1\tooltips\1.jpg" />
-    <Content Include="data1\tooltips\2.jpg" />
-    <Content Include="data1\tooltips\3.png" />
-    <Content Include="data1\tooltips\4.png" />
-    <Content Include="data1\tooltips\5.jpg" />
-    <Content Include="data1\tooltips\6.jpg" />
+    <Content Include="assets\data1\images\1.jpg" />
+    <Content Include="assets\data1\images\2.jpg" />
+    <Content Include="assets\data1\images\3.png" />
+    <Content Include="assets\data1\images\4.png" />
+    <Content Include="assets\data1\images\5.jpg" />
+    <Content Include="assets\data1\images\6.jpg" />
+    <Content Include="assets\data1\tooltips\1.jpg" />
+    <Content Include="assets\data1\tooltips\2.jpg" />
+    <Content Include="assets\data1\tooltips\3.png" />
+    <Content Include="assets\data1\tooltips\4.png" />
+    <Content Include="assets\data1\tooltips\5.jpg" />
+    <Content Include="assets\data1\tooltips\6.jpg" />
     <Content Include="engine1\arrows.png" />
     <Content Include="engine1\bg.png" />
     <Content Include="engine1\bullet.png" />
