@@ -57,18 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutMe.html" />
     <Content Include="assets\img\icon\webicon-facebook-m.png" />
-    <Content Include="assets\img\icon\webicon-facebook.svg" />
     <Content Include="assets\img\icon\webicon-linkedin-m.png" />
-    <Content Include="assets\img\icon\webicon-linkedin.svg" />
     <Content Include="assets\img\icon\webicon-twitter-m.png" />
-    <Content Include="assets\img\icon\webicon-twitter.svg" />
     <Content Include="assets\img\icon\webicon-youtube-m.png" />
-    <Content Include="assets\img\icon\webicon-youtube.svg" />
-    <Content Include="css\webicons.css" />
-    <Content Include="engine1\controls.eot" />
-    <Content Include="engine1\controls.ttf" />
-    <Content Include="engine1\controls.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,6 +76,7 @@
     <Content Include="assets\img\icon\me.svg" />
     <Content Include="assets\img\icon\project.svg" />
     <Content Include="assets\img\icon\service.svg" />
+    <Content Include="contactMe.html" />
     <Content Include="css\app.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\normalize.css" />
@@ -98,11 +92,16 @@
     <Content Include="data1\tooltips\4.png" />
     <Content Include="data1\tooltips\5.jpg" />
     <Content Include="data1\tooltips\6.jpg" />
-    <Content Include="engine1\controls.svg" />
+    <Content Include="engine1\arrows.png" />
+    <Content Include="engine1\bg.png" />
+    <Content Include="engine1\bullet.png" />
     <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\pause.png" />
+    <Content Include="engine1\play.png" />
     <Content Include="engine1\script.js" />
     <Content Include="engine1\style.css" />
     <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\triangle.png" />
     <Content Include="engine1\wowslider.js" />
     <Content Include="engine1\wowslider.mod.js" />
     <Content Include="humans.txt" />
@@ -113,6 +112,7 @@
     <Content Include="Scripts\lib\foundation.min.js" />
     <Content Include="Scripts\lib\jquery.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="service.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

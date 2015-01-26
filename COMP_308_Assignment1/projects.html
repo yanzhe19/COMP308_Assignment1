@@ -1,9 +1,95 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Zhe's Projects</title>
+    <!--CSS Section-->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+
 </head>
 <body>
+    <div class="row">
+        <!--Put the logo in the center-->
+        <div class="twelve columns text-center">
+            <br />
+            <img src="http://placehold.it/285x79/" alt="place holder for Logo" />
+        </div>
+    </div>
 
+    <!--The Navigation bar(Full version) in medium and large screen-->
+    <div class="row hide-for-small" medium-collapse large-uncollapse>
+        <div id="navBarRegular" class="icon-bar six-up">
+            <a class="item hide-for-small" href="index.html">
+                <img src="assets/img/icon/home.svg" alt="" />
+                <label>Home</label>
+            </a>
+            <a class="item" href="aboutMe.html">
+                <img src="assets/img/icon/me.svg" alt="" />
+                <label class="hide-for-small">
+                    About Me
+                </label>
+            </a>
+            <a class="item" href="projects.html" id="checkedNavIcon">
+                <img src="assets/img/icon/project.svg" alt="" />
+                <label>Projects</label>
+            </a>
+            <a class="item" href="service.html">
+                <img src="assets/img/icon/service.svg" alt="" />
+                <label>Service</label>
+            </a>
+            <a class="item" href="contactMe.html">
+                <img src="assets/img/icon/contact.svg" alt="" />
+                <label class="hide-for-small">
+                    Contact Me
+                </label>
+            </a>
+            <a class="item hide-for-small" href="https://github.com/yanzhe19">
+                <img src="assets/img/icon/github.svg" alt="" />
+                <label>Github</label>
+            </a>
+        </div>
+    </div>
+
+    <!--Navigation bar for small screen only, Replace the full navigation-->
+    <div class="row show-for-small-only">
+        <div id="navBar" class="icon-bar four-up">
+            <a class="item" href="aboutMe.html">
+                <img src="assets/img/icon/me.svg" alt="" />
+                <label class="show-for-small">
+                    About
+                </label>
+            </a>
+            <a class="item" href="projects.html" id="checkedNavIcon">
+                <img src="assets/img/icon/project.svg" alt="" />
+                <label>Projects</label>
+            </a>
+            <a class="item" href="service.html">
+                <img src="assets/img/icon/service.svg" alt="" />
+                <label>Service</label>
+            </a>
+            <a class="item" href="contactMe.html">
+                <img src="assets/img/icon/contact.svg" alt="" />
+                <label class="show-for-small">
+                    Contact
+                </label>
+            </a>
+        </div>
+    </div>
+
+    <!--breadcrumbs for home page-->
+    <div class="row">
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="projects.html">Projects</a></li>
+        </ul>
+    </div>
 </body>
 </html>
