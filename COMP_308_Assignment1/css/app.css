@@ -1,6 +1,6 @@
 ﻿body {
     /*background-color:black;*/
-    background-size: auto;
+    background-size: auto auto;
     background-image: url("../assets/img/background.jpg");
 }
 
@@ -28,24 +28,17 @@
     background-color: #b0b0b0;
 }
 
-#callToAction {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 0 50px 100px;
-    border-color: transparent transparent transparent #7BD5E8;
-}
-
-#buttonboxback {
+#btnCallToAction {
     width: 150px;
     height: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     margin-top: 5%;
+    margin-right: 3%;
     border-radius: 5px;
 }
 
-#buttonboxback:after {
+#btnCallToAction:after {
     content: "";
     position: absolute;
     top: 0;
@@ -55,7 +48,7 @@
     border-color: transparent  transparent transparent rgba(0, 0, 0, 0.5);    
 }
 
-#buttonboxback > a {
+#btnCallToAction > a {
     display: block;
     text-decoration: none;
     text-align: center;
