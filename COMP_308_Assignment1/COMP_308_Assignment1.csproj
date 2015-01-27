@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutMe.html" />
+    <Content Include="assets\img\45.jpg" />
+    <Content Include="assets\img\background.jpg" />
     <Content Include="assets\img\icon\webicon-facebook-m.png" />
     <Content Include="assets\img\icon\webicon-facebook.png" />
     <Content Include="assets\img\icon\webicon-linkedin-m.png" />
@@ -80,6 +82,7 @@
     <Content Include="assets\img\icon\project.svg" />
     <Content Include="assets\img\icon\service.svg" />
     <Content Include="assets\img\icon\webicon-youtube.png" />
+    <Content Include="assets\img\sky.jpg" />
     <Content Include="contactMe.html" />
     <Content Include="css\app.css" />
     <Content Include="css\foundation.min.css" />
