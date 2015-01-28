@@ -16,7 +16,8 @@ body {
 
 /*project page contact me button color*/
 #pojectPageContactBtn {
-    background-color: #b0b0b0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
 }
 
 /*navigation bar style*/
@@ -213,8 +214,13 @@ p, #missionState {
     width: 90%;
 }
 
-/*about me page paragraph alignstyle*/
+/*About me page paragraph alignstyle*/
 .paragraphAlign {
     padding-top:0;
     margin:0;
+}
+
+/*Project page image style*/
+.imageGrid{
+   margin-bottom: 5%;
 }
