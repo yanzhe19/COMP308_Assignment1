@@ -224,3 +224,12 @@ p, #missionState {
 .imageGrid{
    margin-bottom: 5%;
 }
+
+/*Contact me content wrapper style*/
+#contactMeWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding:3%;
+    border:solid rgba(0, 0, 0, 0.25); 
+}
