@@ -81,6 +81,8 @@
     <Content Include="assets\img\icon\project.svg" />
     <Content Include="assets\img\icon\service.svg" />
     <Content Include="assets\img\icon\webicon-youtube.png" />
+    <Content Include="assets\img\Logo.png" />
+    <Content Include="assets\img\LogoDesign.png" />
     <Content Include="assets\img\zhe_profile photo.jpg" />
     <Content Include="contactMe.html" />
     <Content Include="css\app.css" />
