@@ -47,7 +47,7 @@ body {
         display: inline-block;
         font-size: 2vmin;
         text-align: center;
-        width: 100%;
+        width: 80%;
         vertical-align: top;
         margin-top: 3%;
         /*border:dashed black;*/
@@ -62,9 +62,11 @@ body {
     border: 0 none;
     cursor: pointer;
     display: inline-block;
-    font-size: 2vmin;
+    font-size: 1vmin;
     text-align: center;
     vertical-align: top;
+    width: 100%;
+    padding:1%;
     background-color: #b0b0b0;
 }
 
@@ -79,8 +81,8 @@ body {
 /*navigation item style*/
 .icon-bar .item {
     margin: 0;
-    padding-top: 1vmin;
-    padding-bottom: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     /* padding-left:1vmin;
     padding-right:1vmin;*/
 }
@@ -90,6 +92,18 @@ body {
     /*border:dashed black;*/
     margin-left: auto;
     padding: 0;
+}
+
+/*logo and icon bar item style form small screen*/
+@media only screen and (max-width: 40em) /* small screen, mobile-only styles*/
+{
+    #logo {
+        /*border:dashed black;*/
+        margin-right: auto;
+        padding: 0;
+        width: 25vmin;
+        height: 25vmin;
+    }
 }
 
 /* Headline Text Style*/
