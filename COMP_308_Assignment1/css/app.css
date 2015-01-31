@@ -16,10 +16,14 @@ body {
 
 /*project page contact me button color*/
 #pojectPageContactBtn {
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: #b59f9f;
     color: white;
 }
 
+    #pojectPageContactBtn:hover {
+        background: #966d6d;
+    }
 /*navigation bar style*/
 @media only screen and (min-width: 64.063em) { /* large screen*/
     #navBarRegular {
@@ -66,13 +70,15 @@ body {
     text-align: center;
     vertical-align: top;
     width: 100%;
-    padding:1%;
+    /*border:dashed black;*/
+    padding: 1%;
     background-color: #b0b0b0;
 }
 
 .navClass {
     background-color: #b0b0b0;
 }
+
 /*navigation item style*/
 .icon-bar .item:hover {
     background: #966d6d;
@@ -132,33 +138,57 @@ p, #missionState {
 }
 
 /*+++++++++++++++++++++index page Call to Action button style++++++++++++++++++++++++++*/
+
+/*style for call to action button*/
 #btnCallToAction {
     width: 150px;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #b59f9f;
     position: relative;
     margin-top: 5%;
     margin-right: 3%;
     border-radius: 5px;
 }
 
-    #btnCallToAction:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: -17px;
-        border-style: solid;
-        border-width: 20px 0 20px 20px;
-        border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
+/* style for contact page submit button*/
+#contactSubmitBtn {
+    background-color: #b59f9f;
+}
+
+    /*Hover Style for call to action and contact page submit button*/
+    #btnCallToAction:hover, #contactSubmitBtn:hover {
+        background: #966d6d;
     }
 
-    #btnCallToAction > a {
-        display: block;
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
-        font: bold 18px/40px Sans-Serif;
-    }
+/*Call to action border style*/
+#btnCallToAction:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #b59f9f;
+}
+
+/*Call to action border hover style*/
+#btnCallToAction:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #966d6d;
+}
+
+#btnCallToAction > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font: bold 18px/40px Sans-Serif;
+}
 /*+++++++++++++++++++++++End of Call To Action button style+++++++++++++++++++++++++++*/
 
 
@@ -263,10 +293,10 @@ p, #missionState {
 }*/
 
 /*About me content wrapper style*/
-#aboutMeWrapper {
+#aboutMeWrapper, #serviceWrapper {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 90%;
 }
 
 /*About me page, hr line style*/
@@ -289,7 +319,28 @@ p, #missionState {
 #contactMeWrapper {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    padding: 3%;
-    border: solid rgba(0, 0, 0, 0.25);
+    width: 75%;
+    /*border: solid rgba(0, 0, 0, 0.25);*/
+}
+
+/*contact me infrmation style*/
+#contactInfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+/*Contact me page social media style*/
+#connectSocial {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/*service page hr style*/
+#serviceHr {
+    width: 100%;
 }
